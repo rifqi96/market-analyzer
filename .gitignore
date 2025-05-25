@@ -1,3 +1,4 @@
+.DS_Store
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -172,3 +173,18 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore all files in the output directory
+output/*
+
+# Ignore all files in the data directory
+data/*
+
+# Ignore all files in the cache directory
+cache/*
+
+# Ignore all files in the logs directory
+logs/*
+
+memory-bank/*
+CLAUDE.*
